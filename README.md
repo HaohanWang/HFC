@@ -47,4 +47,4 @@
 &middot;
 [Zeyi Huang](https://github.com/Justinhzy) 
    
-We also have partial implementation in pytorch, feel free to request. 
+We also have implementation in PyTorch, feel free to request. 
