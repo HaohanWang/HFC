@@ -7,9 +7,17 @@
 
 <img src="intro.png" alt="HFC helps explain CNN generaliation" width="1000" height="whatever">
 
-**Fig. 2: Eight testing samples selected from CIFAR10 that help explain that CNN can capture the high-frequency image: the model (ResNet18) correctly predicts the original image (1st column in each panel) and the highfrequency reconstructed image (3rd column in each panel), but incorrectly predict the low-frequency reconstructed image (2nd column in each panel). The prediction confidences are also shown. Details are in the paper.**
+**Fig. 2: Eight testing samples selected from CIFAR10 that help explain that CNN can capture the high-frequency image: the model (ResNet18) correctly predicts the original image (1st column in each panel) and the high frequency reconstructed image (3rd column in each panel), but incorrectly predict the low-frequency reconstructed image (2nd column in each panel). The prediction confidences are also shown. Details are in the paper.**
 
-**Other Results**
+<details>
+ <summary><b>Other Discussions in Paper</b> (click to expand)</summary>
+
+  1. Trade-off between accuracy and robustness (Section 3)
+  2. Rethinking data before rethinking generalization (Section 4)
+  3. Re-evaluate the heuristics (BatchNorm seems to promote high-frequency information) (Section 5)
+  4. Adversarially robust models tend to filter out high-frequency components (Section 6)
+  5. Similar phenomena are observed beyond image classification (Section 7)
+</details>
 
 ### Code Structures
 
