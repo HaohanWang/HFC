@@ -22,6 +22,8 @@
 ## Code Structures
 
 ## Before using the code
+   dependency: foolbox
+   
    Read readme
    
    Generate Data
