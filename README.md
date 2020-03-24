@@ -19,6 +19,13 @@
   5. Similar phenomena are observed beyond image classification (Section 7)
 </details>
 
-### Code Structures
+## Code Structures
 
-### Before using the code
+## Before using the code
+   Read readme
+   
+   Generate Data
+   
+## Contact 
+   
+   we also have partial implementation in pytorch, feel free to request. 
