@@ -21,13 +21,30 @@
 
 ## Code Structures
 
+- [scripts/resnet.py](https://github.com/HaohanWang/HFC/blob/master/scripts/resnet.py)
+    - Pipeline to replicate our results on CIFAR10 data
+- utility/ 
+    - [attackHelper.py](https://github.com/HaohanWang/HFC/blob/master/utility/attackHelper.py)
+         - main methods used to generate adversarial examples
+    - [dataLoader.py](https://github.com/HaohanWang/HFC/blob/master/utility/dataLoader.py)
+         - load data
+    - [frequencyHelper.py](https://github.com/HaohanWang/HFC/blob/master/utility/frequencyHelper.py)
+         - generate low and high frequency data
+    - [pdg_attack.py](https://github.com/HaohanWang/HFC/blob/master/utility/pgd_attack.py)
+         - helper for adversarial training
+
 ## Before using the code
-   dependency: foolbox
-   
-   Read readme
-   
-   Generate Data
+
+- Install the main dependency: TensorFlow 1.x and [Foolbox](https://github.com/bethgelab/foolbox)
+- Read the main script. We recommend users to skim through the script befoure usage. We use "todo" to highlight the parts that may require attention. 
+- Generate data: one can generate the data with [utility/frequencyHelper.py](https://github.com/HaohanWang/HFC/blob/master/utility/frequencyHelper.py)
    
 ## Contact 
+  
+[HaohanWang](https://twitter.com/HaohanWang) 
+&middot; 
+[Xindi Wu](https://github.com/XindiWu) 
+&middot;
+[Zeyi Huang](https://github.com/Justinhzy) 
    
-   we also have partial implementation in pytorch, feel free to request. 
+We also have partial implementation in pytorch, feel free to request. 
