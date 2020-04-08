@@ -24,7 +24,7 @@ def distance(i, j, imageSize, r):
     if dis < r:
         return 1.0
     else:
-        return 0.5
+        return 0
 
 def mask_radial(img, r):
     rows, cols = img.shape
@@ -32,22 +32,6 @@ def mask_radial(img, r):
     for i in range(rows):
         for j in range(cols):
             mask[i, j] = distance(i, j, imageSize=rows, r=r)
-    return mask
-
-
-def distance2(i, j, imageSize, r):
-    dis = np.sqrt((i - imageSize/2) ** 2 + (j - imageSize/2) ** 2)
-    if dis < r:
-        return 1.0
-    else:
-        return 2.0
-
-def mask_radial2(img, r):
-    rows, cols = img.shape
-    mask = np.zeros((rows, cols))
-    for i in range(rows):
-        for j in range(cols):
-            mask[i, j] = distance2(i, j, imageSize=rows, r=r)
     return mask
 
 
